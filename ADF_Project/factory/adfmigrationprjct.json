@@ -1,0 +1,15 @@
+{
+	"name": "adfmigrationprjct",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5308412d-73c6-455f-8534-dd42c56f3ea4",
+		"tenantId": "b6ba0d92-d01d-400d-a8af-75a82dd24deb"
+	}
+}
