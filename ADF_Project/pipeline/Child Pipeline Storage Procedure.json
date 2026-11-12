@@ -41,7 +41,7 @@
 					}
 				},
 				"linkedServiceName": {
-					"referenceName": "DS_SqlServer1",
+					"referenceName": "LS_SQLSERVERTBLLKUP",
 					"type": "LinkedServiceReference"
 				}
 			}
