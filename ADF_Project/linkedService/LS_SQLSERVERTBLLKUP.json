@@ -11,10 +11,10 @@
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
 			"userName": "deepz",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNTAwOGI0MC0wY2Q4LTQ4NjMtYTllNS02OGFhYTE5NjBjOTgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NWYxOTA3Mi05ZTg4LTRmYjMtOTQ4Yi1lMDkwNmU3NTkyZWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
-			"referenceName": "integrationRuntime3",
+			"referenceName": "integrationRuntime4",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
