@@ -7,10 +7,6 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adfmigrationproject2"
 		},
-		"DS_SqlServer1_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'DS_SqlServer1'"
-		},
 		"LS_SQLSERVERTBLLKUP_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'LS_SQLSERVERTBLLKUP'"
@@ -18,18 +14,6 @@
 		"LS_Sqltable_Parq_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_Sqltable_Parq'"
-		},
-		"DS_SqlServer1_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": ".\\SQLEXPRESS"
-		},
-		"DS_SqlServer1_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "sqlmigration"
-		},
-		"DS_SqlServer1_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "deepz"
 		},
 		"LS_SQLSERVERTBLLKUP_properties_typeProperties_server": {
 			"type": "string",
@@ -74,23 +58,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"DS_SqlServer1_password": {
-						"value": "[parameters('DS_SqlServer1_password')]"
-					},
 					"LS_SQLSERVERTBLLKUP_password": {
 						"value": "[parameters('LS_SQLSERVERTBLLKUP_password')]"
 					},
 					"LS_Sqltable_Parq_accountKey": {
 						"value": "[parameters('LS_Sqltable_Parq_accountKey')]"
-					},
-					"DS_SqlServer1_properties_typeProperties_server": {
-						"value": "[parameters('DS_SqlServer1_properties_typeProperties_server')]"
-					},
-					"DS_SqlServer1_properties_typeProperties_database": {
-						"value": "[parameters('DS_SqlServer1_properties_typeProperties_database')]"
-					},
-					"DS_SqlServer1_properties_typeProperties_userName": {
-						"value": "[parameters('DS_SqlServer1_properties_typeProperties_userName')]"
 					},
 					"LS_SQLSERVERTBLLKUP_properties_typeProperties_server": {
 						"value": "[parameters('LS_SQLSERVERTBLLKUP_properties_typeProperties_server')]"
