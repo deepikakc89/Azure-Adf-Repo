@@ -6,7 +6,7 @@
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://adlsadfmigration2.dfs.core.windows.net/",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1M2YxYTNjNi1mZTVjLTRjNjUtOGVhNy1jMjc3YTcxM2E3ZGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkM2U0Zjk4Mi04YjNjLTQ1NjktOTcwNi1iOGRhNDk2MWExYjgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime4",
